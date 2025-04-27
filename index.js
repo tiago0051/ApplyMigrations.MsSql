@@ -67,12 +67,12 @@ const connection = new Connection({
   authentication: {
     type: "default",
     options: {
-      userName: "sa",
-      password: "yourStrong@123Password",
+      userName: "",
+      password: "",
     },
   },
   options: {
-    database: "EMPLOYER_ERP_CADASTRO",
+    database: "",
     trustServerCertificate: true,
   },
 });
